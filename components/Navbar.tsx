@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import ThemeController from './ThemeController'
 
 export default function Navbar() {
   return (
@@ -8,6 +9,7 @@ export default function Navbar() {
         <Link href='/' className="btn btn-ghost text-xl">WeTube</Link>
       </div>
       <div className="flex-none gap-2">
+        <ThemeController />
         <div className="form-control">
           <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
         </div>
