@@ -24,7 +24,9 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="system">
           <Navbar />
           <SideNavbar />
-          {children}
+          <div className="pl-24">
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>

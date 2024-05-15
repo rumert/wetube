@@ -118,7 +118,7 @@ export default function VideoListing() {
   
     return (
       <div className='pt-12 pb-40'>
-        <div className='ml-24 px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+        <div className='px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
           {videoCards.map((card, index) => {
             return(
             <div key={index} className="card bg-base-100 shadow-xl">
